@@ -5,5 +5,5 @@ from django.http import HttpResponse
 
 def home(request):
     response = HttpResponse("<title>Things</title>")
-    response.setdefault("h1", "Things")
+    response.write("<h1>Things</h1>")
     return response
