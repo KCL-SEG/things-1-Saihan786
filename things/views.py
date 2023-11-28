@@ -4,4 +4,4 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("<title>Things</title>")
+    return HttpResponse("<h1>Things</h1>")
